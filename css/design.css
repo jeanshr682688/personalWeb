@@ -1,0 +1,231 @@
+*{
+    /* outline: 1px solid gray; */
+    font-size: 0px;
+}
+ 
+main{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav a.local::before{
+    content: " ";
+    position: absolute;
+    border-bottom: 2px solid #8B5E3E;
+    bottom: -10px;
+    left: 0;
+    padding: 0px;
+    opacity: 1;
+    width: 65px;
+}
+
+.banner{
+    display: inline-block;
+    position: relative;
+    
+}
+.banner .banner_img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.banner .banner_text{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 40%;
+    
+}
+
+.banner .banner_text h2{
+    font-size: 32px;    
+    padding-bottom: 10px;
+}
+.banner .banner_text .line{
+    width: 60px;
+    position: absolute;
+    border: 1px solid white;
+    left: 35%;
+}
+.banner .banner_text p{
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+/* 麵包屑 */
+.breadcrumb{
+    width: 200px;
+    height: 30px;
+    padding: 10px 0px;
+    font-size: 12px; 
+    position: relative;
+    left: 10%;
+  }
+.breadcrumb .breadcrumb_list{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #8B5E3E;
+   
+  }
+  .breadcrumb .breadcrumb_list a{
+    color: #8B5E3E;
+ 
+  }
+  
+  
+.breadcrumb .breadcrumb_list > li{
+    display: inline-block;
+    margin-right: 10px;
+ 
+}
+  
+.breadcrumb .breadcrumb_list > li::before{
+    content: "/";
+    font-size: 12px;
+    color: #8B5E3E;
+    margin-right: 12px;
+ }
+
+.breadcrumb .breadcrumb_list > li:first-child::before{
+    content: "";
+    margin-right: 0;
+}
+  
+.breadcrumb .breadcrumb_list > li > a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.breadcrumb .breadcrumb_list > li > a img{
+    width:16px;
+    vertical-align: bottom;
+}
+  
+.breadcrumb .breadcrumb_list > li > a:hover{
+    color: darkgray;
+}
+
+/* 內容區域 */
+.design_h2 h2{
+    color: #8B5E3E;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+}
+.design_h2 .line{
+    border-top: 1px solid #8B5E3E;
+    max-width: 1140px;
+    margin: 10px auto;
+    margin-bottom: 80px;
+}
+
+.design_container{
+    max-width: 1140px;
+    margin: 0px auto;   
+}
+
+.design_container .item{
+    max-width: 1140px;
+    /* height: 480px; */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.design_container .item .item_left{
+    display: flex;
+    align-items: center;
+    margin: 50px 50px;
+    
+}
+
+.design_container .item .item_right{
+    margin: 20px 30px;
+    width: 300px;
+    color: #8B5E3E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.design_container .item .item_right h3{ 
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.design_container .item .item_right p{
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 3;
+    text-align: center;
+}
+
+.bgc{
+    width: 100%;
+    height: 150px;
+    background-color: #FCF8EA;
+    position: absolute;
+    bottom: -50px;
+    z-index: -1;
+}
+
+.design_container .line{
+    border-top: 1px solid #8B5E3E;
+    width: 1140px;
+    margin: 100px auto;
+
+}
+
+.design_container .item1{
+    max-width: 1140px;
+    /* height: 550px; */
+    display: flex;
+    position: relative;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+
+.design_container .item1 .item_left{
+    max-width: 650px;
+    height: 400px;
+    /* border-radius: 50px; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-grow: 2;
+    box-shadow: 5px 5px 5px  #707070;
+    margin: 50px 30px;
+}
+.design_container .item1 .item_left img{
+    width: 100%;
+}
+.design_container .item1 .item_right{
+    margin: 20px 50px;
+    width: 300px;
+    color: #8B5E3E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.design_container .item1 .item_right h3{ 
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.design_container .item1 .item_right p{
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 3;
+    text-align: center;
+
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡資訊</title>
+
+    <link rel="stylesheet" href="./common/reset.css">
+    <link rel="stylesheet" href="./common/header.css">
+    <link rel="stylesheet" href="./common/header_rwd.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/contact_rwd.css">
+    <link rel="stylesheet" href="./common/footer.css">
+    <link rel="stylesheet" href="./common/footer_rwd.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="head"></div>
+
+        <div class="icon">
+            <a href="#"><img src="./img/common/account-circle.png" alt="log_in" title="會員登入"></a>
+            <a href="#"><img src="./img/common/cart.png" alt="my_cart" title="購物車"></a>
+            <div class=cart_num>0</div>
+            <a href="#"><img src="./img/common/favourite.png" alt="my_favourite" title="課程收藏"></a>
+        </div>
+
+        <nav>
+            <a class="item" href="design.html">花藝作品</a>
+            <a class="item" href="product.html">花禮訂製</a>
+            <a class="item " href="news.html">最新消息</a>
+            <div class="logo">
+                <a class="logo" href="index.html"><img src="./img/common/logo_OK.png" alt="logo"></a>
+            </div>
+            <a class="item  " href="workshop.html">花藝教室</a>
+            <a class="item local" href="contact.html">聯絡資訊</a>
+            <a class="item " href="faq.html">常見問題</a>
+        </nav>
+        <!-- ---------hamburger-menu---------- -->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                <div id="menu_on">MENU</div>
+                <div id="menu_off">CLOSE</div>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="news.html">最新消息</a></li>
+                <li><a class="menu__item" href="design.html">花藝作品</a></li>
+                <li><a class="menu__item" href="product.html">花禮訂製</a></li>
+                <li><a class="menu__item" href="workshop.html">花藝教室</a></li>
+                <li><a class="menu__item" href="contact.html">聯絡資訊</a></li>
+                <li><a class="menu__item" href="faq.html">常見問題</a></li>
+                <div class="line"></div>
+                <div class="icon">
+                    <a href="#"><img src="./img/common/account-circle.png" alt="log_in" title="會員登入"></a>
+                    <a href="#"><img src="./img/common/cart.png" alt="my_cart" title="購物車"></a>
+                    <a href="#"><img src="./img/common/favourite.png" alt="my_favourite" title="課程收藏"></a>
+                </div>
+
+                <div class="link_box">
+                    <a href="https://www.facebook.com" target=" _blank">
+                        <img src="./img/common/facebook_b.png" alt=""></a>
+
+                    <a href="https://www.instagram.com/" target=" _blank">
+                        <img src="./img/common/instagram_b.png" alt=""></a>
+
+                    <a href="https://www.youtube.com/" target=" _blank">
+                        <img src="./img/common/youtube_b.png" alt=""></a>
+                </div>
+                <p class="smallword">&#169; 2020 Love Bouguet Studio</p>
+            </ul>
+        </div>
+        <div class="line"></div>
+    </header>
+    <!-- 內容區域 -->
+    <main>
+        <div class="breadcrumb">
+            <ol class="breadcrumb_list">
+                <li><a href="index.html"><img src="./img/common/home.png" alt=""> 首頁</a></li>
+                <li><a href="contact.html">聯絡我們</a></li>
+            </ol>
+        </div>
+
+        <div class="contact_h2">
+            <h2>
+                聯絡資訊 CONTACT
+            </h2>
+            <div class="line"></div>
+        </div>
+
+        <article>
+            <div class="box">
+                <section class="section1">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.306585153291!2d121.54937761566562!3d25.057595843497637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abeee39a5e2b%3A0x12dc5909a681bab2!2zMTA15Y-w5YyX5biC5p2-5bGx5Y2A5rCR55Sf5p2x6Lev5Zub5q61NTblt7cxN-iZnw!5e0!3m2!1szh-TW!2stw!4v1599234584517!5m2!1szh-TW!2stw"
+                        width="900" height="680" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                    <div class="para">
+                        門市地址<br>
+                        台北市松山區民生東路四段
+                        56巷17弄7號
+                        <br>
+                        聯絡電話<br>
+                        02-23321881
+                        <br>
+                        服務時間<br>
+                        AM0900 - PM0900
+                        <br>
+                        連絡信箱<br>
+                        love_bouguet@gmail.com <br>
+
+                    </div>
+                </section>
+            </div>
+
+
+            <section class="section2">
+
+                <h3>要跟我們說</h3>
+
+                <form>
+                    <label for="username">姓名</label>
+                    <input type="text" placeholder="請輸入姓名"><br>
+                    <label for="tel">手機</label>
+                    <input type="tel" placeholder="請輸入行動電話"><br>
+                    <label for="email">信箱</label>
+                    <input type="email" placeholder="請輸入Email"><br>
+                    <label for="text">想說的話</label><br>
+                    <textarea name="" id="" cols="60" rows="10"></textarea><br>
+                    <input class="submit" type="submit" value="送出" style="font-size: 12px;">
+                </form>
+                <div class="back">
+                    <img src="https://www.hdf.tw/assets/images/bg_contact.jpg" alt="">
+                </div>
+
+            </section>
+        </article>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer_triangle">
+            <span class="triangle"></span>
+            <div> <a href="contact.html">TOP</a></div>
+        </div>
+        <div class="link_box">
+
+            <div class="item"> <a href="https://www.facebook.com" target=" _blank">
+                    <img src="./img/common/facebook.png" alt=""></a>
+            </div>
+            <div class="item"><a href="https://www.instagram.com/" target=" _blank">
+                    <img src="./img/common/instagram.png" alt=""></a>
+            </div>
+            <div class="item"><a href="https://www.youtube.com/" target=" _blank">
+                    <img src="./img/common/Icon awesome-youtube-square.png" alt=""></a>
+            </div>
+
+        </div>
+        <div class="add">
+
+            <h2>Love Bouquet</h2>
+            <p class="text">
+                <br>電話：02-23321881
+                <br>地址：台北市松山區民生東路四段56巷17弄7號
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

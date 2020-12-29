@@ -1,0 +1,81 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    
+}
+@media screen and (min-width: 992px ) and (max-width: 1199px){
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .footer {
+        height: 50%;
+        overflow-x: hidden;
+    }
+    .footer_triangle{
+
+    }
+    .footer_triangle{
+        display: none;
+    }
+
+    .add{
+        width: 700px;
+        padding: 10px;
+    }
+    .add .text{
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 576px)and (max-width: 767px){
+    .footer{
+        height: 30%;
+        overflow: hidden;
+    }
+    .footer_triangle{
+        display: none;
+    }
+    .add{
+        width: 540px;
+        padding: 15px;
+    }
+    .footer .link_box{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 376px)and (max-width: 575px){
+    .footer{
+        height: 30%;
+        overflow: hidden;
+        
+    }
+    .footer_triangle{
+        display: none;
+    }
+    .add{
+        width: 100%;
+        padding: 15px;
+        overflow-x: hidden;
+    }
+    .footer .link_box{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .footer{
+        height: 30%;
+        overflow: hidden;
+    }
+    .footer_triangle{
+        display: none;
+    }
+    .add{
+        width: 100%;
+        padding: 15px;
+    }
+    .footer .link_box{
+        display: none;
+    }
+}

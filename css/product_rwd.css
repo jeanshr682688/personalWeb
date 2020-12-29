@@ -1,0 +1,299 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    
+}
+@media screen and (min-width: 992px ) and (max-width: 1199px){
+    
+    main{
+        min-width: 900px;
+    }
+    .banner .banner_img{
+        height: 250px;
+
+    }
+    .breadcrumb{
+        left: 13%;
+    }
+    .shop_h2 .line{
+        max-width: 900px;  
+    }
+    .shop_container{
+        width: 900px;
+        margin: 0px auto;
+    }
+    .shop_container .aside_menu{
+        width: 160px;
+    }
+    .shop_container .aside_menu ul li{
+       
+    }
+    .shop_menu{
+        width: 740px;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    main{
+        min-width: 700px;
+    }
+    .banner .banner_img{
+        height: 230px;
+
+    }
+    .banner .banner_text{
+        top: 30%;
+        left: calc((100% - 192px)/2);
+    }
+    .breadcrumb{
+        left: 16%;
+    }
+    .shop_h2 .line{
+        max-width: 700px;  
+    }
+    .shop_container{
+        width: 700px;
+        margin: 0px auto;
+    }
+    .shop_container .aside_menu{
+        width: 120px;
+    }
+    .shop_menu{
+        width: 580px;
+    }
+    .shop_menu .menu_items{
+        width: 180px;
+        height: 350px;
+    }
+    .shop_menu .menu_items .img_block{
+        width: 180px;
+        height: 275px;
+    }
+    .menu_items .img_block a{
+
+    }
+}
+@media screen and (min-width: 576px)and (max-width: 767px){
+    main{
+        min-width: 540px;
+    }
+    .banner .banner_img{
+        height: 180px;
+
+    }
+    .banner .banner_text{
+        left: calc((100% - 192px)/2);
+    }
+    .breadcrumb{
+        left: 16%;
+    }
+    .shop_h2 .line{
+        max-width: 540px;  
+    }
+    .shop_container{
+        width: 540px;
+        margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .shop_container .aside_menu{
+        width: 540px;
+        height: 50px;
+    }
+    .shop_container .aside_menu ul{
+        display: flex;
+        flex-direction: row;
+        height: 50px; 
+        justify-content: center;
+        align-items: center;
+    }
+    .shop_container .aside_menu ul li{
+        width: 100px;
+        border: 1px solid #8B5E3E;
+        border-radius: 10px;
+
+    }
+    .shop_container .aside_menu ul li a{
+        font-size: 12px;
+    }
+
+    .shop_menu{
+        width: 540px;
+        border-left: 0px solid #8B5E3E;
+    }
+    .shop_menu .menu_items{
+        width: 150px;
+        height: 290px;
+        
+    }
+    .shop_menu .menu_items .img_block{
+        width: 150px;
+        height: 225px;
+    }
+    .menu_items .img_block a{
+        width: 100px;
+        height: 16px;
+        font-size: 10px;
+        left: calc(( 100% - 100px)/2);
+    }
+    .shop_menu .menu_items p{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+}
+@media screen and (min-width: 376px)and (max-width: 575px){
+    main{
+        width: 100%;
+       
+    }
+    .banner .banner_img{
+        height: 150px;
+
+    }
+    .banner .banner_text{
+        left: calc((100% - 144px)/2);
+    }
+    .breadcrumb{
+        left: 14%;
+    }
+    .banner .banner_text h2{
+        font-size: 24px;
+
+    }
+    .banner .banner_text p{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .shop_h2 .line{
+        width:80%;  
+    }
+    .shop_container{
+        width: 100%;
+        margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .shop_container .aside_menu{
+        width: 100%;
+        height: 50px;
+    }
+    .shop_container .aside_menu ul{
+        display: flex;
+        flex-direction: row;
+        height: 50px; 
+        justify-content: center;
+        align-items: center;
+        margin: 0 18px;
+       
+    }
+    .shop_container .aside_menu ul li{
+        width: 70px;
+        border: 1px solid #8B5E3E;
+        border-radius: 10px;
+
+    }
+    .shop_container .aside_menu ul li a{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .shop_menu{
+        width: 100%;
+        border-left: 0px solid #8B5E3E;
+    }
+    .shop_menu .menu_items{
+        width: 150px;
+        height: 290px;
+        
+    }
+    .shop_menu .menu_items .img_block{
+        width: 150px;
+        height: 225px;
+    }
+    .menu_items .img_block a{
+        width: 100px;
+        height: 16px;
+        font-size: 10px;
+        left: calc(( 100% - 100px)/2);
+    }
+    .shop_menu .menu_items p{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+}
+@media screen and (max-width: 375px){
+    main{
+        width: 100%;
+       
+    }
+    .banner .banner_img{
+        height: 120px;
+
+    }
+    .banner .banner_text{
+        left: calc((100% - 144px)/2);
+    }
+    .breadcrumb{
+        left: 14%;
+    }
+    .banner .banner_text h2{
+        font-size: 24px;
+
+    }
+    .banner .banner_text p{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .shop_h2 .line{
+        width:80%;  
+    }
+    .shop_container{
+        width: 100%;
+        margin: 0px auto;
+        flex-wrap: wrap;
+    }
+    .shop_container .aside_menu{
+        width: 100%;
+        height: 50px;
+    }
+    .shop_container .aside_menu ul{
+        display: flex;
+        flex-direction: row;
+        height: 50px; 
+        justify-content: center;
+        align-items: center;
+        margin: 0 18px;
+       
+    }
+    .shop_container .aside_menu ul li{
+        width: 70px;
+        border: 1px solid #8B5E3E;
+        border-radius: 10px;
+
+    }
+    .shop_container .aside_menu ul li a{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .shop_menu{
+        width: 100%;
+        border-left: 0px solid #8B5E3E;
+    }
+    .shop_menu .menu_items{
+        width: 150px;
+        height: 290px;
+        
+    }
+    .shop_menu .menu_items .img_block{
+        width: 150px;
+        height: 225px;
+    }
+    .menu_items .img_block a{
+        width: 100px;
+        height: 16px;
+        font-size: 10px;
+        left: calc(( 100% - 100px)/2);
+    }
+    .shop_menu .menu_items p{
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+}
+

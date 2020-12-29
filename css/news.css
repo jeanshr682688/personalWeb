@@ -1,0 +1,236 @@
+*{
+    /* outline: 1px solid gray; */
+    font-size: 0px;
+   
+}
+
+main{
+    width: 100%;
+    overflow-x: hidden; 
+    z-index: 0;
+}
+nav a.local::before{
+    content: " ";
+    position: absolute;
+    border-bottom: 2px solid #8B5E3E;
+    bottom: -10px;
+    left: 0;
+    padding: 0px;
+    opacity: 1;
+    width: 65px;
+}
+/* *******Banner區域******* */
+.banner{
+    z-index: 0;
+    
+    min-width: 1140px;
+    height: 450px;
+    display: block;
+    background-image: url(../img/News/Newsbanner3840x2160.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;
+     
+}
+
+.banner .banner_img{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: none;
+    
+}
+
+.banner .banner_text{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: calc((100% - 78px)/2);
+    left: calc((100% - 213px)/2);
+    
+}
+
+.banner .banner_text h2{
+    font-size: 32px;    
+    padding-bottom: 10px;
+}
+.banner .banner_text .line{
+    width: 60px;
+    position: absolute;
+    border: 1px solid white;
+    left: 35%;
+}
+.banner .banner_text p{
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+
+/* 麵包屑 */
+.breadcrumb{
+    width: 200px;
+    height: 30px;
+    padding: 10px 0px;
+    font-size: 12px;
+    position: relative;
+    left: 10%;
+  }
+.breadcrumb .breadcrumb_list{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #8B5E3E;
+   
+  }
+  .breadcrumb .breadcrumb_list a{
+    color: #8B5E3E;
+  }
+   
+.breadcrumb .breadcrumb_list > li{
+    display: inline-block;
+    margin-right: 10px; 
+}  
+  .breadcrumb .breadcrumb_list > li::before{
+    content: "/";
+    font-size: 12px;
+    color: #8B5E3E;
+    margin-right: 12px;
+  }
+
+  .breadcrumb .breadcrumb_list > li:first-child::before{
+    content: "";
+    margin-right: 0;
+  }
+  
+  .breadcrumb .breadcrumb_list > li > a{
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .breadcrumb .breadcrumb_list > li > a img{
+    width:16px;
+    vertical-align: bottom;
+  }
+  
+  .breadcrumb .breadcrumb_list > li > a:hover{
+    color: darkgray;
+  }
+
+  /* 內容區域 */
+
+ .news_h2 h2{
+    color: #8B5E3E;
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+}
+ .news_h2 .line{
+    border-top: 1px solid #8B5E3E;
+    max-width: 1140px;
+    margin: 10px auto;
+    margin-bottom: 80px;
+}
+
+.news_container{
+    max-width: 1140px;
+    margin: 0 auto; 
+    /* overflow-y: hidden;   */
+}
+.news_container .news_item {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+   
+}
+
+.news_item .div_item{
+    width: 100%;
+    position: relative;
+    
+}
+.content{
+    width: 40%;
+    position: absolute;
+    right: 0px;
+
+
+}
+.content h3{
+    color: #8B5E3E;
+    font-size: 16px; 
+    margin: 30px auto;
+}
+.content .date{
+    color: #707070;
+    font-size: 10px;
+    margin: 40px auto;
+   
+}
+.content .item_text{
+    color: #707070;
+    font-size: 14px;
+    margin: 30px auto;
+    line-height: 3;
+  
+}
+.content .item_text a{
+    text-decoration: none;
+    color: #707070;
+
+}
+
+.content .item_text a:hover{
+    color: #00f;
+
+    
+}
+.div_item ul{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+   
+      
+}
+.div_item ul li.item1_img:nth-child(1){
+    width: 50%;
+    /* height: 50%; */
+    align-self: flex-end;
+
+}
+.div_item ul li.item1_img{
+    width: 160px;
+    /* height: 165px; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div_item ul li.item1_img img{
+    width: 100%;
+}
+
+.bgc{
+    width: 100%;
+    height: 150px;
+    background-color: #FCF8EA;
+    position: absolute;
+    bottom: 100px;
+    z-index: -1;
+    
+}
+
+.news_container .line{
+    border-top: 1px solid #8B5E3E;
+    width: 1140px;
+    margin: 100px auto;
+}

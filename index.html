@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LoveBouguet 首頁</title>
+
+    <link rel="stylesheet" href="./common/reset.css">
+    <link rel="stylesheet" href="./common/header.css">
+    <link rel="stylesheet" href="./common/header_rwd.css">
+    <link rel="stylesheet" href="./css/index_main.css">
+    <link rel="stylesheet" href="./css/index_rwd.css">
+    <link rel="stylesheet" href="./common/footer.css">
+    <link rel="stylesheet" href="./common/footer_rwd.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+    
+
+</head>
+
+<body>
+    <header>
+        <div class="head"></div>
+
+        <div class="icon">
+            <a href="#"><img src="./img/common/account-circle.png" alt="log_in" title="會員登入"></a>
+            <a href="#"><img src="./img/common/cart.png" alt="my_cart" title="購物車"></a>
+            <div class=cart_num>0</div>
+            <a href="#"><img src="./img/common/favourite.png" alt="my_favourite" title="課程收藏"></a>
+        </div>
+
+
+
+        <nav>
+           
+            <a class="item" href="design.html">花藝作品</a>
+            <a class="item" href="product.html">花禮訂製</a>
+            <a class="item " href="news.html">最新消息</a>
+            <div>
+                <a class="logo" href="index.html"><img src="./img/common/logo_OK.png" alt="logo"></a>
+            </div>
+            <a class="item  " href="workshop.html">花藝教室</a>
+            <a class="item " href="contact.html">聯絡資訊</a>
+            <a class="item " href="faq.html">常見問題</a>
+
+        </nav>
+        <!-- ---------hamburger-menu---------- -->
+        
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox">
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                <div id="menu_on">MENU</div>
+                <div id="menu_off">CLOSE</div>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="news.html">最新消息</a></li>
+                <li><a class="menu__item" href="design.html">花藝作品</a></li>
+                <li><a class="menu__item" href="product.html">花禮訂製</a></li>
+                <li><a class="menu__item" href="workshop.html">花藝教室</a></li>
+                <li><a class="menu__item" href="contact.html">聯絡資訊</a></li>
+                <li><a class="menu__item" href="faq.html">常見問題</a></li>
+                <div class="line"></div>
+                <div class="icon">
+                    <a href="#"><img src="./img/common/account-circle.png" alt="log_in" title="會員登入"></a>
+                    <a href="#"><img src="./img/common/cart.png" alt="my_cart" title="購物車"></a>
+                    <a href="#"><img src="./img/common/favourite.png" alt="my_favourite" title="課程收藏"></a>
+                </div>
+
+                <div class="link_box">
+                    <a href="https://www.facebook.com" target=" _blank">
+                        <img src="./img/common/facebook_b.png" alt=""></a>
+
+                    <a href="https://www.instagram.com/" target=" _blank">
+                        <img src="./img/common/instagram_b.png" alt=""></a>
+
+                    <a href="https://www.youtube.com/" target=" _blank">
+                        <img src="./img/common/youtube_b.png" alt=""></a>
+                </div>
+                <p class="smallword">&#169; 2020 Love Bouguet Studio</p>
+            </ul>
+        </div>
+
+        <div class="line"></div>
+
+    </header>
+
+    <!-- 內容區域 -->
+    <main>
+
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
+            uk-slideshow="animation: slide;autoplay: true;autoplay-interval: 6000">
+            <ul class="uk-slideshow-items">
+                <li>
+                    <a href="index.html">
+                        <span id="slider1">Our Story</span>
+                        <img src="./img/Index/index_slider_1.jpg" uk-cover>
+                    </a>
+                </li>
+                <li>
+                    <a href="news.html">
+                        <span id="slider2">News</span>
+                        <img src="./img/Index/index_slider_2.jpg" uk-cover>
+                    </a>
+                </li>
+                <li>
+                    <a href="workshop.html">
+                        <span id="slider3">WorkShop</span>
+                        <img src="./img/Index/index_slider_4.jpg" uk-cover>
+                    </a>
+                </li>
+                <li>
+                    <a href="product.html">
+                        <span id="slider4">Product</span>
+                        <img src="./img/Index/index_slider_3.jpg" uk-cover>
+                    </a>
+                </li>
+            </ul>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+                uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+                uk-slideshow-item="next"></a>
+        </div>
+
+        <div class="about">
+            <h2>
+                關於我們 OurStory
+            </h2>
+            <div class="line"></div>
+            <p>
+                分享透過「眼」「耳」「鼻」「舌」「身」「意」，啟動一個個感人的生命。
+                <br>
+                從認識花草植物、種植技巧、生活運用、分享、打造自已專屬的療癒花園，每一個過程，都是花草植物療癒你、我、他的契機。
+                <br>
+                <br>
+                只要願意，透過與花草植物的對話，從內心深處了解自已—相信自已、相信他人。
+                <br>
+                憑藉著「相信」讓許多生命因為綠色療癒力而翻轉、重生，這並不是「奇蹟」，而是願意「接受」。
+                <br>
+                <br>
+                邀請您
+                <br>
+                一同體驗與花草對話的神奇力量
+
+            </p>
+
+        </div>
+
+        <div class="about_pic">
+            <div class="box">
+                <div class="rectangle">
+                    <img src="./img/Index/png/index_about_2.JPG" alt="圖片未呈現">
+                </div>
+            </div>
+
+        </div>
+
+
+        </div>
+
+
+        <div class="news_header">
+            <h2 class="news_text">最新消息News</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="index_news">
+            <div class="news_left">
+                <div class="news_para">
+                    <h3>2020中秋花禮-柔和的月光</h3>
+                    <p>
+                        <br>&nbsp&nbsp&nbsp&nbsp去年的蛋黃酥中秋禮廣受好評，
+                        今年依然要找隱藏在台灣各角落的高手蛋黃酥，
+                        評比一下，選出來搭配2020的中秋花禮，
+                        經由老師美食愛好朋友的關係，找到一位
+                        從事烘焙很久的老師傅的獨門蛋黃酥。
+                        <br>
+                        <br>&nbsp&nbsp&nbsp&nbsp無名師傅的蛋黃酥外表很圓很飽滿，
+                        烤的比較金黃，咬下去第一口，
+                        蛋黃吃的出鹹香味，中和了豆沙的甜，
+                        今年蛋黃酥搭配象徵柔和月光的黃針墊，
+                        黃乒乓，鵝黃滿天星，
+                        這樣的中秋花禮，希望你們滿意喜歡！
+                        <br>
+                        <br>花禮售價：2200元
+                        <br>早鳥優惠價：2000元
+                        <br>早鳥訂購時間：8/17-9/4
+                        <br>取貨時間：
+                        <br>9/24，25，26每天下午5-6點取貨
+                        <br>
+
+                        <br>
+                        <a class="order_btn" href="product.html">
+                            <button class="btn">訂購去</button>
+                        </a>
+                    </p>
+
+
+
+                </div>
+            </div>
+
+            <div class="news_right">
+                <img src="./img/Index/png/timeline_20200809_175640.jpg" alt="圖片未呈現">
+            </div>
+
+        </div>
+
+        <div class="course_header">
+            <h2 class="course_text">課程介紹 WorkShop</h2>
+            <div class="line"></div>
+        </div>
+        <div class="main_course">
+            <ul class="course1">
+                <li>
+                    <div class="item1">
+                        <p>盆花教學</p>
+                        <div class="img_block">
+
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./img/Index/png/cousre_1.JPG" alt="課程圖片未呈現">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item1">
+                        <p>親子植裁</p>
+                        <div class="img_block">
+
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./img/Index/png/course_2.JPG" alt="課程圖片未呈現">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item1">
+                        <p>聖誕花禮</p>
+                        <div class="img_block">
+
+                            <div class="img">
+                                <a href="#">
+                                    <img src="./img/Index/png/course_3.JPG" alt="課程圖片未呈現">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item1">
+
+                        <p>園藝治療</p>
+                        <div class="img_block">
+
+                            <div class="img">
+                                <img src="./img/Index/png/course_4.JPG" alt="課程圖片未呈現"></div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+            <ul class="course2">
+                <li>
+                    <div class="item2">
+                        <p>手綁花教學</p>
+                        <div class="img_block">
+
+                            <div class="img">
+                                <a href="#"></a><img src="./img/Index/png/course_5.jpg" alt="課程圖片未呈現"></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="product_header">
+            <h2 class="product_text">花藝作品 / 花禮設計</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="product">
+            <div class="p_container">
+                <a class="item " href="product.html">
+                    <div class="text-box">
+                        <p>粉紅花束<br>1800元</p>
+                    </div>
+                    <img src="./img/Index/png/product_1.JPG" alt="">
+                </a>
+                <a class="item " href="product.html">
+                    <div class="text-box">
+                        <p>玫瑰花束<br>1800元</p>
+                    </div>
+                    <img src="./img/Index/png/product_2.JPG" alt="">
+                </a>
+                <a class="item " href="product.html">
+                    <div class="text-box">
+                        <p>鮮花盆花<br>2800元</p>
+                    </div>
+                    <img src="./img/Index/png/product_3.JPG" alt="">
+                </a>
+                <a class="item " href="product.html">
+                    <div class="text-box">
+                        <p>燭光盆花<br>3000元</p>
+                    </div>
+                    <img src="./img/Index/png/product_4.JPG" alt="">
+                </a>
+
+            </div>
+
+            <div class="p_para1">
+                <div class="pic_left" data-aos="flip-left">
+                    <img src="./img/Index/png/product_5.png" alt="產品圖未呈現">
+                </div>
+                <div>
+                    <ul>
+                        <li>盆花訂製</li>
+                        <li>花束訂製</li>
+                        <li>空間佈置</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bgc"></div>
+            <div class="p_para2">
+                <div>
+                    <ul>
+                        <li>婚禮捧花</li>
+                        <li>永生花</li>
+                        <li>花器選購</li>
+                    </ul>
+                </div>
+
+                <div class="pic_left" data-aos="flip-right">
+                    <img src="./img/Index/png/product_6.png" alt="產品圖未呈現">
+                </div>
+
+
+
+            </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_triangle">
+            <span class="triangle"></span>
+            <div> <a href="index.html">TOP</a></div>
+        </div>
+        <div class="link_box">
+
+            <div class="item"> <a href="https://www.facebook.com" target=" _blank">
+                    <img src="./img/common/facebook.png" alt=""></a>
+            </div>
+            <div class="item"><a href="https://www.instagram.com/" target=" _blank">
+                    <img src="./img/common/instagram.png" alt=""></a>
+            </div>
+            <div class="item"><a href="https://www.youtube.com/" target=" _blank">
+                    <img src="./img/common/Icon awesome-youtube-square.png" alt=""></a>
+            </div>
+
+        </div>
+        <div class="add">
+
+            <h2>Love Bouquet</h2>
+            <p class="text">
+                <br>電話：02-23321881
+                <br>地址：台北市松山區民生東路四段56巷17弄7號
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+@import "./reset.css"
+
+*{
+    margin: 0;
+    font-size: 0;
+    overflow-x: hidden;
+}
+
+.footer{
+    background-color:#8B5E3E;
+    color: white;
+    width: 100%;
+    font-size: 20px; 
+    height: 180px;
+    position: relative;
+    /* margin-top: 150px; */
+}
+
+.footer_triangle{
+    display: inline-block;
+    vertical-align: middle;
+    top: -100px;
+    
+  
+}
+
+.footer_triangle .triangle{ 
+    position: absolute;
+    border-top:0px solid transparent;
+    border-left:80px solid transparent;
+    border-bottom:50px solid #8B5E3E;
+    border-right:80px solid transparent;  
+    top:-50px;
+    right: 200px;
+  }
+
+  .footer_triangle a{ 
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: -35px;
+    right: 250px;
+    padding: 10px;
+  }
+
+.footer .link_box {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer .link_box .item{
+    width: 25px;
+    height: 25px;
+    margin: 0px 22px 0px 22px;
+    padding: 5px;
+}
+.link_box .item img{
+    width: 100%; 
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    width: 900px; 
+    align-items: flex-start;
+    margin: auto;
+    padding: 0px 0px 0px 50px;
+
+}
+.add a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.add > h2{
+    font-size: 20px;
+    
+}
+
+.add .text{
+    font-size: 12px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+
+
+
+

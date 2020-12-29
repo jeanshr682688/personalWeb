@@ -1,0 +1,964 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    
+}
+@media screen and (min-width: 992px ) and (max-width: 1199px){
+    
+    .main_content{
+        min-width: 100%;
+    }
+    .slider_img{
+        height: 540px;
+    }
+    #sliderBoard{
+        height: 540px;
+    }
+    .about .line{
+        width: 900px;
+    }
+    .about_pic{
+        height: 500px;
+    }
+    .about_pic .box{
+        width: 325px;
+    }
+    .about_pic .box .rectangle{
+        width: 310px;
+        height: 409px;
+
+        left: 100px;
+    }
+    .about_pic .rectangle img{
+        width: 310px;
+        height: 409px;
+    }
+    .news_header .line{
+        width: 900px;
+    }
+    .index_news{
+        max-width: 900px;
+        height: 700px;
+    }
+    .index_news .news_left{
+        min-width:400px;
+        height: 700px;
+        background-image: none;
+        margin: 0 20px;
+        padding: 10px;
+        
+    }
+    .news_left .news_para{
+        width: 400px;
+        padding: 10px;
+        left: 0%;
+    }
+    .index_news .news_right{
+       min-width: 400px;
+       height: 493px;
+    }
+    .course_header{
+        min-width: 900px;
+    
+    }
+    .course_header .line{
+        width: 900px;
+    }
+    .main_course{
+        width: 900px;
+    }
+    .main_course .course1 > li{
+        width: 200px;
+        height: 217px;
+    }
+    .course1 .item1{
+        width: 200px;
+        height: 217px;
+    }
+    .course1 .img_block{
+        width: 260px;
+        height: 270px;
+    }
+    .main_course .course2 > li{
+        width: 900px;
+        height: 550px;
+    }
+    .course2 .item2{
+        max-width: 900px;
+        height:550px;
+    }
+    .course2 .img_block{
+        width: 900px;
+        height: 550px;
+    }
+    .product_header .line{
+        width: 900px;
+    }
+    .product{
+        width: 900px;
+    }
+    .product .p_container .item{
+        width: 210px;
+        height: 222px;
+    }
+    .product .p_container .item .text-box p{
+        font-size: 1rem;
+    }
+    .product .p_container .item  img{
+        top: calc(50% - 168px);
+        left: calc(50% - 96px);
+    }
+    .p_para1{
+        width: 900px;
+        flex-wrap: wrap;
+        margin: 50px 0px 50px 0px;
+        
+    }
+    .p_para1 .pic_left{
+        width: 900px;
+    }
+    .p_para1 .pic_left img{
+        width: 100%;
+    }
+
+    .p_para1 ul{
+        width: 900px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+    }
+    .p_para1 ul li{
+        margin: 20px; 
+    }
+    .bgc{
+        display: none;
+    }
+    
+    .p_para2{
+        width: 900px;
+        flex-wrap: wrap;
+        margin: 50px 0px 50px 0px;
+
+    }
+    .p_para2 .pic_left{
+        order: 2;
+        width: 900px;
+    }
+    .p_para2 .pic_left img{
+        width: 100%;
+    }
+    .p_para2 ul{
+        width: 900px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+        order: 1;
+    }
+    .p_para2 ul li{
+        margin: 20px; 
+    }
+    
+    
+}
+    
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .main_content{
+        min-width: 100%;
+    }
+    .slider_img{
+        height: 540px;
+    }
+    #sliderBoard{
+        height: 540px;
+    }
+    .about .line{
+        width: 700px;
+    }
+    .about_pic{
+        height: 500px;
+    }
+    .about_pic .box{
+        width: 325px;
+    }
+    .about_pic .box .rectangle{
+        width: 310px;
+        height: 409px;
+
+        left: 100px;
+    }
+    .about_pic .rectangle img{
+        width: 310px;
+        height: 409px;
+    }
+    .news_header .line{
+        width: 700px;
+    }
+    .index_news{
+        max-width: 700px;
+        height: 700px;
+    }
+    .index_news .news_left{
+        min-width:350px;
+        height: 700px;
+        background-image: none;
+        margin: 0 auto;
+        padding: 10px;
+        
+    }
+    .news_left .news_para{
+        width: 340px;
+        padding: 10px;
+        left: 10%;
+    }
+    .index_news .news_right{
+       min-width: 380px;
+       height: 463px;
+       
+    }
+    .course_header{
+        min-width: 700px;
+    
+    }
+    .course_header .line{
+        width: 700px;
+    }
+    .main_course{
+        width: 700px;
+    }
+    .main_course .course1 > li{
+        width: 150px;
+        height: 173px;
+    }
+    .course1 .item1{
+        width: 150px;
+        height: 173px;
+    }
+    .course1 .item1 > p{
+        left: 20%;
+    }
+    .course1 .img_block{
+        width: 150px;
+        height: 200px;
+    }
+    .main_course .course2 > li{
+        width: 700px;
+        height: 427px;
+    }
+    .course2 .item2{
+        max-width: 700px;
+        height:427px;
+    }
+    .course2 .img_block{
+        width: 700px;
+        height: 427px;
+    }
+    .product_header .line{
+        width: 700px;
+    }
+    .product{
+        width: 700px;
+    }
+    .product .p_container .item{
+        width: 150px;
+        height: 159px;
+    }
+    .product .p_container .item .text-box p{
+        font-size: 1rem;
+    }
+    .product .p_container .item  img{
+        top: calc(50% - 120px);
+        left: calc(50% - 74px);
+    }
+    .p_para1{
+        width: 700px;
+        flex-wrap: wrap;
+        margin: 50px 0px 50px 0px;
+        
+    }
+    .p_para1 .pic_left{
+        width: 700px;
+    }
+    .p_para1 .pic_left img{
+        width: 100%;
+    }
+
+    .p_para1 ul{
+        width: 700px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+    }
+    .p_para1 ul li{
+        margin: 20px; 
+    }
+    .bgc{
+        display: none;
+    }
+    
+    .p_para2{
+        width: 700px;
+        flex-wrap: wrap;
+        margin: 50px 0px 50px 0px;
+
+    }
+    .p_para2 .pic_left{
+        order: 2;
+        width: 700px;
+    }
+    .p_para2 .pic_left img{
+        width: 100%;
+    }
+    .p_para2 ul{
+        width: 700px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+        order: 1;
+    }
+    .p_para2 ul li{
+        margin: 20px; 
+    }
+    
+}
+@media screen and (min-width: 576px)and (max-width: 767px){
+    .main_content{
+        min-width: 100%;
+    }
+    .slider_img{
+        height: 540px;
+    }
+    #sliderBoard{
+        height: 540px;
+    }
+    #slider1{
+        top:200px;
+    }
+    #slider2{
+        top:200px;
+    }
+    #slider3{
+        top:200px;
+    }
+    #slider4{
+        top:200px;
+    }
+    
+    .about .line{
+        width: 540px;
+    }
+    .about_pic{
+        height: 330px;
+    }
+    .about_pic .box{
+        width: 250px;
+    }
+    .about_pic .box .rectangle{
+        width: 230px;
+        height: 297px;
+
+        left: 50px;
+    }
+    .about_pic .rectangle img{
+        width: 230px;
+        height: 297px;
+        top: -10px;
+        left: -10px;
+    }
+    .news_header .line{
+        width: 540px;
+        padding: 30px 0px 0px 0px;
+    }
+    .index_news{
+        max-width: 540px;
+        height: 1100px;
+        flex-wrap: wrap;
+    }
+    .index_news .news_left{
+        min-width:350px;
+        height: 500px;
+        background-image: none;
+        margin: 0 auto;
+        padding: 10px;
+        order: 1;
+        
+    }
+    .news_left .news_para{
+        width: 500px;
+        padding: 10px;
+    }
+    .index_news .news_right{
+       min-width: 380px;
+       height: 463px;
+       order: 2;
+       
+    }
+    .course_header{
+        min-width: 540px;
+    
+    }
+    .course_header .line{
+        width: 540px;
+        padding:30px 0px 0px 0px;
+    }
+    .main_course{
+        width: 540px;
+    }
+    .course_header .course_text{
+        margin: 60px 0px 20px 0px;
+    }
+    .main_course .course1{
+        flex-wrap: wrap;
+    }
+    .main_course .course1 > li{
+        width: 150px;
+        height: 173px;
+        margin: 20px 20px;
+        
+    }
+    .course1 .item1{
+        width: 150px;
+        height: 173px;
+    }
+    .course1 .item1 > p{
+        left: 20%;
+    }
+    .course1 .img_block{
+        width: 150px;
+        height: 200px;
+    }
+    .main_course .course2 > li{
+        width: 540px;
+        height: 329px;
+    }
+    .course2 .item2{
+        max-width: 540px;
+        height:329px;
+    }
+    .course2 .img_block{
+        width: 540px;
+        height: 329px;
+    }
+    .product_header .line{
+        width: 540px;
+        padding: 30px 0px 0px 0px;
+    }
+    .product{
+        width: 540px;
+    }
+    .product .p_container{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;  
+    }
+    .product .p_container .item{
+        width: 150px;
+        height: 159px;
+        margin-right: 20px;
+        margin-top: 20px;
+
+    }
+    .product .p_container .item .text-box p{
+        font-size: 1rem;
+    }
+    .product .p_container .item  img{
+        top: calc(50% - 120px);
+        left: calc(50% - 74px);
+    }
+    .p_para1{
+        width: 540px;
+        flex-wrap: wrap;
+        margin: 50px 0px 50px 0px;
+        
+    }
+    .p_para1 .pic_left{
+        width: 540px;
+    }
+    .p_para1 .pic_left img{
+        width: 100%;
+    }
+
+    .p_para1 ul{
+        width: 540px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+    }
+    .p_para1 ul li{
+        margin: 20px; 
+    }
+    .bgc{
+        display: none;
+    }
+    
+    .p_para2{
+        width: 540px;
+        flex-wrap: wrap;
+        margin: 50px 0px 50px 0px;
+
+    }
+    .p_para2 .pic_left{
+        order: 2;
+        width: 540px;
+    }
+    .p_para2 .pic_left img{
+        width: 100%;
+    }
+    .p_para2 ul{
+        width: 540px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+        order: 1;
+    }
+    .p_para2 ul li{
+        margin: 20px; 
+    }
+}
+@media screen and (min-width: 376px)and (max-width: 575px){
+    .main_content{
+        min-width: 100%;
+    }
+    .slider_img{
+        height: 380px;
+    }
+    #sliderBoard{
+        height: 380px;
+    }
+    #slider1{
+        top:140px;
+    }
+    #slider2{
+        top:140px;
+    }
+    #slider3{
+        top:140px;
+    }
+    #slider4{
+        top:140px;
+    }
+    .about h2{
+        font-size: 24px;
+        margin: 30px 0px 10px 0px;
+    }
+    .about .line{
+        width: 80%;
+    }
+    .about_pic{
+        height: 280px;
+    }
+    .about_pic .box{
+        width: 200px;
+    }
+    .about_pic .box .rectangle{
+        width: 180px;
+        height: 232px;
+
+        left: 20px;
+        top: -50px;
+    }
+    .about_pic .rectangle img{
+        width: 180px;
+        height: 232px;
+        top: -10px;
+        left: -5px;
+    }
+    .news_header .news_text{
+        font-size: 24px;
+        margin: 30px 0px 10px 0px;
+    }
+    .news_header .line{
+        width: 80%;
+        padding: 30px 0px 0px 0px;
+    }
+    .index_news{
+        width: 100%;
+        height: 1200px;
+        flex-wrap: wrap;
+    }
+    .index_news .news_left{
+        width:80%;
+        height: 500px;
+        background-image: none;
+        margin: 0 auto;
+        padding: 10px;
+        order: 1;
+        
+    }
+    .news_left .news_para{
+        width: 360px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .news_left .news_para > h3{
+        font-size: 20px;
+    }
+    .index_news .news_right{
+       min-width: 380px;
+       height: 463px;
+       margin: 0 20px;
+       order: 2;
+       
+    }
+    .course_header{
+        min-width: 360px;
+    
+    }
+    .course_header .course_text{
+        font-size: 24px;
+        margin: 30px 0px 20px 0px;
+        left: 5%;
+    }
+    .course_header .line{
+        width: 80%;
+        padding:30px 0px 0px 0px;
+    }
+    .course_header .course_text{
+        margin: 30px 0px 20px 0px;
+    }
+    .main_course{
+        width: 100%;
+    }
+    .main_course .course1{
+        flex-wrap: wrap;
+    }
+    .main_course .course1 > li{
+        width: 150px;
+        height: 173px;
+        margin: 20px 5px;
+        
+    }
+    .course1 .item1{
+        width: 150px;
+        height: 173px;
+    }
+    .course1 .item1 > p{
+        left: 20%;
+    }
+    .course1 .img_block{
+        width: 150px;
+        height: 200px;
+    }
+    .main_course .course2 > li{
+        width: 360px;
+        height: 183px;
+        margin: 0 auto;
+    }
+    .course2 .item2{
+        width: 360px;
+        height:183px;
+    }
+    .course2 .item2 > p{
+        left: 33%;
+        font-size: 1.5em;
+    }
+    .course2 .img_block{
+        width: 360px;
+        height: 183px;
+    }
+    .product_header .line{
+        width: 80%;
+        padding: 30px 0px 0px 0px;
+    }
+    .product{
+        width: 100%;
+    }
+    .product .p_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product .p_container .item{
+        width: 150px;
+        height: 159px;
+        margin-right: 20px;
+        margin-top: 20px;
+
+    }
+    .product .p_container .item .text-box p{
+        font-size: 1rem;
+    }
+    .product .p_container .item  img{
+        top: calc(50% - 120px);
+        left: calc(50% - 74px);
+    }
+    .p_para1{
+        width: 360px;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        justify-content: center;
+        
+    }
+    .p_para1 .pic_left{
+        width: 320px;
+    }
+    .p_para1 .pic_left img{
+        width: 100%;
+    }
+
+    .p_para1 ul{
+        width: 320px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+    }
+    .p_para1 ul li{
+        margin: 5px;
+        font-size: 16px;
+    }
+    .bgc{
+        display: none;
+    }
+    
+    .p_para2{
+        width: 320px;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        justify-content: center;
+
+    }
+    .p_para2 .pic_left{
+        order: 2;
+        width: 100%;
+    }
+    .p_para2 .pic_left img{
+        width: 100%;
+    }
+    .p_para2 ul{
+        width: 320px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+        order: 1;
+    }
+    .p_para2 ul li{
+        margin: 5px; 
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 375px){
+    .main_content{
+        min-width: 100%;
+    }
+    .slider_img{
+        height: 300px;
+    }
+    #sliderBoard{
+        height: 300px;
+    }
+    #slider1{
+        top:100px;
+        font-size: 36px;
+        left: calc((25% - 236px)/2);
+        width: 200px;
+        height: 36px;
+    }
+    #slider2{
+        top:100px;
+        font-size: 36px;
+        left: calc(((25% - 236px)/2) + (25%));
+        width: 200px;
+        height: 36px;
+    }
+    #slider3{
+        top:100px;
+        font-size: 36px;
+        left: calc(((25% - 236px)/2) + (50%));
+        width: 200px;
+        height: 36px;
+    }
+    #slider4{
+        top:100px;
+        font-size: 36px;
+        left: calc(((25% - 236px)/2) + (75%));
+        width: 200px;
+        height: 36px;
+    }
+    .about h2{
+        font-size: 24px;
+        margin: 30px 0px 10px 0px;
+    }
+    .about .line{
+        width: 80%;
+    }
+    .about_pic{
+        height: 210px;
+    }
+    .about_pic .box{
+        width: 200px;
+    }
+    .about_pic .box .rectangle{
+        width: 180px;
+        height: 232px;
+
+        left: 20px;
+        top: -50px;
+    }
+    .about_pic .rectangle img{
+        width: 180px;
+        height: 232px;
+        top: -10px;
+        left: -5px;
+    }
+    .news_header .news_text{
+        font-size: 24px;
+        margin: 30px 0px 10px 0px;
+    }
+    .news_header .line{
+        width: 80%;
+        padding: 30px 0px 0px 0px;
+    }
+    .index_news{
+        width: 100%;
+        height: 1100px;
+        flex-wrap: wrap;
+    }
+    .index_news .news_left{
+        width:80%;
+        height: 500px;
+        background-image: none;
+        margin: 0 auto;
+        padding: 10px;
+        order: 1;
+        
+    }
+    .news_left .news_para{
+        width: 300px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .news_left .news_para > h3{
+        font-size: 20px;
+    }
+    .index_news .news_right{
+       min-width: 300px;
+       height: 381px;
+       margin: 0 20px;
+       order: 2;
+       
+    }
+    .course_header{
+        min-width: 300px;
+    
+    }
+    .course_header .course_text{
+        font-size: 24px;
+        margin: 30px auto;
+
+    }
+    .course_header .line{
+        width: 80%;
+        padding:30px 0px 0px 0px;
+    }
+    .course_header .course_text{
+        margin: 30px 0px 20px 0px;
+    }
+    .main_course{
+        width: 100%;
+    }
+    .main_course .course1{
+        flex-wrap: wrap;
+    }
+    .main_course .course1 > li{
+        width: 150px;
+        height: 173px;
+        margin: 20px 5px;
+        
+    }
+    .course1 .item1{
+        width: 150px;
+        height: 173px;
+    }
+    .course1 .item1 > p{
+        left: 20%;
+    }
+    .course1 .img_block{
+        width: 150px;
+        height: 200px;
+    }
+    .main_course .course2 > li{
+        width: 300px;
+        height: 153px;
+        margin: 0 auto;
+    }
+    .course2 .item2{
+        width: 300px;
+        height:153px;
+    }
+    .course2 .item2 > p{
+        left: 33%;
+        font-size: 1.5em;
+    }
+    .course2 .img_block{
+        width: 300px;
+        height: 153px;
+    }
+    .product_header .line{
+        width: 80%;
+        padding: 30px 0px 0px 0px;
+    }
+    .product{
+        width: 100%;
+    }
+    .product .p_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .product .p_container .item{
+        width: 150px;
+        height: 159px;
+        margin-right: 20px;
+        margin-top: 20px;
+
+    }
+    .product .p_container .item .text-box p{
+        font-size: 1rem;
+    }
+    .product .p_container .item  img{
+        top: calc(50% - 120px);
+        left: calc(50% - 74px);
+    }
+    .p_para1{
+        width: 300px;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        justify-content: center;
+        
+    }
+    .p_para1 .pic_left{
+        width: 300px;
+    }
+    .p_para1 .pic_left img{
+        width: 100%;
+    }
+
+    .p_para1 ul{
+        width: 300px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+    }
+    .p_para1 ul li{
+        margin: 5px;
+        font-size: 16px;
+    }
+    .bgc{
+        display: none;
+    }
+    
+    .p_para2{
+        width: 300px;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        justify-content: center;
+
+    }
+    .p_para2 .pic_left{
+        order: 2;
+        width: 100%;
+    }
+    .p_para2 .pic_left img{
+        width: 100%;
+    }
+    .p_para2 ul{
+        width: 300px;
+        flex-direction: row;
+        background-color: #FCF8EA;
+        order: 1;
+    }
+    .p_para2 ul li{
+        margin: 5px; 
+        font-size: 16px;
+    }
+}
+

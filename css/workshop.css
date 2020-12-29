@@ -1,0 +1,427 @@
+*{
+    /* outline: 1px solid gray; */
+    font-size: 0px;
+    
+}
+nav a.local::before{
+  content: " ";
+  position: absolute;
+  border-bottom: 2px solid #8B5E3E;
+  bottom: -10px;
+  left: 0;
+  padding: 0px;
+  opacity: 1;
+  width: 65px;
+}
+
+/* *******Banner區域******* */
+.banner{
+  display: inline-block;
+  position: relative;
+  
+}
+.banner .banner_img{
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.banner .banner_text{
+  display: inline-block;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 40%;
+  
+}
+
+.banner .banner_text h2{
+  font-size: 32px;    
+  padding-bottom: 10px;
+}
+.banner .banner_text .line{
+  width: 60px;
+  position: absolute;
+  border: 1px solid white;
+  left: 35%;
+}
+.banner .banner_text p{
+  font-size: 16px;
+  margin-top: 20px;
+
+}
+
+/* 麵包屑 */
+.breadcrumb{
+    width: 200px;
+    height: 30px;
+    padding: 10px 0px;
+    font-size: 12px;
+    
+    position: relative;
+    left: 10%;
+  }
+.breadcrumb .breadcrumb_list{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #8B5E3E;
+   
+  }
+  .breadcrumb .breadcrumb_list a{
+    color: #8B5E3E;
+ 
+  }
+  
+  
+.breadcrumb .breadcrumb_list > li{
+    display: inline-block;
+    margin-right: 10px;
+ 
+}
+  
+  .breadcrumb .breadcrumb_list > li::before{
+    content: "/";
+    font-size: 12px;
+    color: #8B5E3E;
+    margin-right: 12px;
+  }
+
+  .breadcrumb .breadcrumb_list > li:first-child::before{
+    content: "";
+    margin-right: 0;
+  }
+  
+  
+
+  .breadcrumb .breadcrumb_list > li > a{
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  .breadcrumb .breadcrumb_list > li > a img{
+    width:16px;
+    vertical-align: bottom;
+
+  }
+  
+
+  .breadcrumb .breadcrumb_list > li > a:hover{
+    color: darkgray;
+  }
+
+  .workshop_h2 h2{
+    color: #8B5E3E;
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+    margin: 90px 0px 30px 0px;
+    letter-spacing: 5px;
+}
+ .workshop_h2 .line{
+    border-top: 1px solid #8B5E3E;
+    width: 1200px;
+    margin: auto;
+}
+
+.workshop_container{
+  width: 1140px;
+  margin: 150px auto;
+  font-size: 16px;
+  
+}
+
+/* ********圖片在左邊******** */
+
+.workshop_container .workshop_item {
+  max-width: 1140px;
+  /* height: 670px; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  /* margin: 0 auto; */
+  /* border: 1px solid blue; */
+  
+}
+
+.workshop_container .workshop_item .item_img{
+  width: 600px;
+  margin: 0px auto;
+  /* order:2; */
+  /* border: 1px solid red; */
+}
+
+.workshop_item .item_img ul{
+  display: flex;
+  width: 585px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+.workshop_item .item_img ul li{
+  width: 185px;
+  height: 185px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.workshop_item .item_img ul li:nth-child(1){
+  width: 585px;
+  height: 450px;
+  overflow: hidden;
+  align-items: center;
+  margin: 10px 5px; 
+}
+
+.workshop_item .item_img ul li:hover{
+    transition: transform 0.3s ease;
+   
+}
+.workshop_item .item_img ul li:hover img{
+  transform: scale(1.5);
+}
+
+.workshop_item .item_img ul li img{
+  width: 100%;
+}
+
+.workshop_item .item_text{
+  color: #8B5E3E;
+  width: 570px;
+  /* order: 1; */
+
+}
+.workshop_item .item_text h3{
+  font-size: 1.5em;
+  margin: 30px 80px;
+
+}
+.workshop_item .item_text h4{
+  font-size: 1.25em;
+  margin: 20px 80px;
+
+}
+.workshop_item .item_text a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.workshop_item .item_text a button{
+   width: 150px;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   background-color: #8b5e3e;
+   border-radius: 10px;
+   margin: 20px 80px;
+   font-size: 1em;
+   border: none;
+   
+}
+
+.workshop_item .item_text a button img{
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+}
+.workshop_item .item_text a button:hover{
+  
+   background-color: white;
+   color: #8b5e3e;
+   border: 1px solid #8b5e3e;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);
+}
+.workshop_item .item_text a button::before{
+  content: "";
+  background-image: url(../img/common/favourite.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  opacity: 0;
+  z-index: 1;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 23%;
+  top: 24%;
+}
+
+.workshop_item .item_text a button:hover::before{  
+  opacity: 1;
+
+}
+
+.workshop_item .item_text .workshop_para{
+    font-size: 1em;
+    line-height: 2.5;
+    background-color: #FCF8EA;
+    width: 450px;
+    height: 440px;
+    padding: 20px 50px;
+    overflow: hidden;
+    
+
+}
+
+.workshop_container .line{
+  border-top: 1px solid #8B5E3E;
+  width: 1200px;
+  margin: 100px auto;
+
+}
+
+/* ********圖片在右邊******** */
+
+.workshop_container .workshop_item2 {
+  max-width: 1140px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  /* border: 1px solid red; */
+  
+  
+}
+
+.workshop_item2 .item_text{
+  color: #8B5E3E;
+  width: 570px;
+}
+
+.workshop_item2 .item_text h3{
+  font-size: 1.5em;
+  margin: 30px 80px;
+  
+
+}
+.workshop_item2 .item_text h4{
+  font-size: 1.25em;
+  margin: 20px 80px;
+
+}
+.workshop_item2 .item_text a{
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.workshop_item2 .item_text a button{
+   width: 150px;
+   height: 30px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #8b5e3e;
+   border-radius: 10px;
+   margin: 20px 80px;
+   font-size: 1em;
+   border: none;
+   position:relative;
+
+}
+.workshop_item2 .item_text a button img{
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+}
+.workshop_item2 .item_text a button:hover{
+   color: #8B5E3E;
+   border: 1px solid #8B5E3E;
+   background-color: white;
+   transition: trsform 0.3s ease;
+   transform: scale(1.1);
+}
+.workshop_item2 .item_text a button::before{
+  content: "";
+  background-image: url(../img/common/favourite.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  opacity: 0;
+  z-index: 1;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 23%;
+  top: 24%;
+}
+
+.workshop_item2 .item_text a button:hover::before{  
+  opacity: 1;
+
+}
+
+.workshop_item2 .item_text .workshop_para{
+    font-size: 1em;
+    line-height: 2;
+    background-color: #FCF8EA;
+    width: 450px;
+    height: 440px;
+    padding: 20px 50px;
+    overflow: hidden;
+    margin: 10px auto;
+
+}
+
+.workshop_container .workshop_item2 .item_img{
+  width: 600px;
+  margin: 0px auto;
+  /* border: 1px solid red; */
+
+}
+.workshop_item2 .item_img ul{
+  display: flex;
+  width: 585px;
+  justify-content: space-around;
+  /* align-items: flex-end; */
+  flex-wrap: wrap; 
+  /* border: 1px solid green; */
+}
+.workshop_item2 .item_img ul li{
+  width: 185px;
+  height: 185px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.workshop_item2 .item_img ul li:nth-child(1){
+  width: 585px;
+  height: 450px;
+  overflow: hidden;
+  align-items: center;
+  margin: 10px 5px; 
+}
+
+.workshop_item2 .item_img ul li:hover{
+    transition: trsform 0.3s ease;
+   
+}
+.workshop_item2 .item_img ul li:hover img{
+  transform: scale(1.5);
+} 
+
+.workshop_item2 .item_img ul li img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+  
+
+

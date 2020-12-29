@@ -1,0 +1,139 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    
+}
+@media screen and (min-width: 992px ) and (max-width: 1199px){
+    .breadcrumb{
+        left: 13%;
+    }
+    main{
+        min-width: 900px;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .breadcrumb{
+        left: 16%;
+    }
+    main{
+        min-width: 700px;
+    }
+    .qa_h2 .line{
+        width: 700px; 
+    }
+    article{
+        width: 700px;
+    }
+    .qa_select{
+        width: 350px;
+    }
+    .content{
+        max-width: 700px; 
+    }
+    .content .block .block1{
+        width: 700px;
+    }
+    .content .block .block2{
+        width: 700px;
+      }
+
+}
+@media screen and (min-width: 576px)and (max-width: 767px){
+    
+    main{
+        min-width: 540px;
+        /* overflow-x: hidden; */
+    
+        
+    }
+    .breadcrumb{
+        left: 14%;
+    }
+    .qa_h2 .line{
+        width: 100%; 
+    }
+    article{
+        width: 540px;
+    }
+    .qa_select{
+        width: 350px;
+    }
+    .content{
+        max-width: 540px; 
+    }
+    .content .block .block1{
+        width: 540px;
+    }
+    .content .block .block2{
+        width: 540px;
+      }
+}
+@media screen and (min-width: 376px)and (max-width: 575px){
+    main{
+        min-width: 360px;   
+    }
+    .breadcrumb{
+        left: 7%;
+    }
+    .qa_h2 h2{
+        font-size: 30px;
+    }
+    .qa_h2 .line{
+        width: 100%; 
+    }
+    article{
+        width: 100%;
+    }
+    .qa_select{
+        width: 200px;
+    }
+    article .qa_select h4{
+        padding: 8px 0px 0px 0px;
+    }
+    .content{
+        max-width: 100%; 
+    }
+    .content .block .block1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content .block .block2{
+        width: 90%;
+        margin: 0 auto;
+      }
+}
+@media screen and (max-width: 375px){
+    main{
+        min-width: 320px;
+        
+    }
+    .breadcrumb{
+        left: 7%;
+    }
+    .qa_h2 h2{
+        font-size: 30px;
+    }
+    .qa_h2 .line{
+        width: 100%; 
+    }
+    article{
+        width: 100%;
+    }
+    .qa_select{
+        width: 200px;
+    }
+    article .qa_select h4{
+        padding: 8px 0px 0px 0px;
+    }
+    .content{
+        max-width: 100%; 
+    }
+    .content .block .block1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content .block .block2{
+        width: 90%;
+        margin: 0 auto;
+      }
+}
+

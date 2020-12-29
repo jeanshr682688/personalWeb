@@ -1,0 +1,311 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    
+}
+@media screen and (min-width: 992px ) and (max-width: 1199px){
+    .breadcrumb{
+        left: 13%;
+    }
+    article{
+        min-width: 900px;
+    }
+    article .box{
+        max-width: 900px;
+    }
+    article .box .section1{
+        width: 900px;
+        height: 700px;
+    }
+    article .section1 iframe{
+        width: 780px;
+        height: 590px;
+    }
+    
+    article .section2 form{
+        min-width: 400px;
+        right: 8%;
+        margin: 15px auto;
+
+    }
+    input{
+        width: 350px;
+    }
+    textarea{
+        width: 400px;
+        height: 150px;
+        margin: 0px auto;
+    }
+    article .section2{
+        height: 480px;
+
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .breadcrumb{
+        left: 13%;
+    }
+    .contact_h2 .line{
+        width: 750px;
+    }
+    article{
+        min-width: 750px;
+    }
+    article .box{
+        max-width: 750px;
+    }
+    article .box .section1{
+        width: 750px;
+        height: 550px;
+    }
+    article .section1 iframe{
+        width: 580px;
+        height: 451px;
+    }
+    article .section1 .para{
+        width: 150px;
+        height: 300px;
+        left: 20px;
+        top: 100px;
+
+        padding: 10px;
+        font-size: 12px;
+    }
+    article .section2 form{
+        min-width: 300px;
+        right: 5%;
+        margin: 15px auto;
+
+    }
+    input{
+        width: 300px;
+    }
+    textarea{
+        width: 350px;
+        height: 100px;
+        margin: 0px auto;
+    }
+    article .section2{
+        height: 375px;
+
+    }
+   
+}
+
+@media screen and (min-width: 576px)and (max-width: 767px){
+    .breadcrumb{
+        left: 14%;
+    }
+    .contact_h2 h2{
+        font-size: 30px;
+    }
+    .contact_h2 .line{
+        width: 540px;
+    }
+    article{
+        min-width: 540px;
+    }
+    article .box{
+        max-width: 540px;
+    }
+    article .box .section1{
+        width: 540px;
+        height: 630px;
+    }
+    article .section1 iframe{
+        width: 500px;
+        height: 389px;
+        left: calc((100% - 500px)/2);
+        margin-top: 200px;
+
+    }
+    article .section1 .para{
+        width: 350px;
+        height: 150px;
+        top: 30px;
+        margin: 0 auto;
+        left: calc((100% - 350px)/2);
+
+        padding: 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    article .section2 form{
+        min-width: 300px;
+        right: 5%;
+        margin: 5px auto;
+        line-height: 1.8;
+
+    }
+    input{
+        width: 240px;
+    }
+    textarea{
+        width: 290px;
+        height: 100px;
+        margin: 0px auto;
+    }
+    article .section2{
+        height: 280px;
+    }
+    
+}
+@media screen and (min-width: 376px)and (max-width: 575px){
+    .breadcrumb{
+        left: 7%;
+    }
+    main{
+        min-width: 360px;
+        overflow-x: hidden;
+    }
+    .contact_h2 h2{
+        font-size: 30px;
+    }
+    .contact_h2 .line{
+        width: 80%;
+    }
+    article{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    article .box{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    article .box .section1{
+        width: 100%;
+        height: 500px;
+        overflow-x: hidden;
+    }
+    article .section1 iframe{
+        width: 370px;
+        height: 288px;
+        left: calc((100% - 370px)/2);
+        margin-top: 200px;
+        overflow-x: hidden;
+
+    }
+    article .section1 .para{
+        width: 350px;
+        height: 150px;
+        top: 30px;
+        margin: 0 auto;
+        left: calc((100% - 350px)/2);
+
+        padding: 5px;
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    article .section2 form{
+        min-width: 300px;
+        margin: 10px auto;
+        line-height: 1.5;
+        left:calc((100% - 320px)/2);
+        overflow-x: hidden;
+
+    }
+    label{
+        margin: 0 auto;
+    }
+    input{
+        width: 250px;
+        margin: 5px auto;
+        overflow-x: hidden;
+    }
+    textarea{
+        width: 300px;
+        height: 100px;
+        margin: 0px auto;
+    }
+    article .section2{
+        height: 310px;
+        overflow-x: hidden;
+    }
+    
+    .section2 .back{
+        height: 330px;
+        overflow: hidden;
+    }
+    .section2 .back img{
+        width: 160%;
+        height: 330px;
+        overflow: hidden;
+    }
+
+
+    
+}
+@media screen and (max-width: 375px){
+    .breadcrumb{
+        left: 7%;
+    }
+    .contact_h2 h2{
+        font-size: 30px;
+    }
+    .contact_h2 .line{
+        width: 80%;
+    }
+    article{
+        width: 100%;
+    }
+    article .box{
+        width: 100%;
+    }
+    article .box .section1{
+        width: 100%;
+        height: 500px;
+    }
+    article .section1 iframe{
+        width: 300px;
+        height: 288px;
+        left: calc((100% - 300px)/2);
+        margin-top: 200px;
+
+    }
+    article .section1 .para{
+        width: 300px;
+        height: 150px;
+        top: 30px;
+        margin: 0 auto;
+        padding: 0px;
+        left: calc((100% - 300px)/2);
+
+        font-size: 12px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    article .section2 form{
+        min-width: 300px;
+        margin: 10px auto;
+        line-height: 1.8;
+        left:calc((100% - 300px)/2);
+
+    }
+    label{
+        margin: 0 auto;
+    }
+    input{
+        width: 200px;
+        margin: 5px auto;
+    }
+    textarea{
+        width: 250px;
+        height: 100px;
+        margin: 0px auto;
+    }
+    article .section2{
+        height: 320px;
+    }
+    
+    .section2 .back{
+        height: 350px;
+        overflow: hidden;
+    }
+    .section2 .back img{
+        width: 160%;
+        height: 350px;
+    }
+}
+

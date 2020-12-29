@@ -1,0 +1,497 @@
+@media screen and (min-width: 1200px) and (max-width: 1600px){
+    
+}
+@media screen and (min-width: 992px ) and (max-width: 1199px){
+    
+    main{
+        min-width: 900px;
+    }
+    .banner .banner_img{
+        height: 250px;
+
+    }
+    .breadcrumb{
+        left: 13%;
+    }
+    .workshop_container{
+        width: 900px;
+        margin: 100px auto;
+    }
+    .workshop_h2 .line{
+        width: 900px;
+    }
+
+    /* ********原圖片在左邊******** */
+    .workshop_container .workshop_item{
+        max-width: 900px;
+        flex-wrap: wrap;
+    }
+    .workshop_item .item_img{
+        order:2;
+    }
+    .workshop_item .item_img ul{
+      margin: 0 auto;   
+    }
+    .workshop_item .item_img ul li{
+       
+    }
+    .workshop_item .item_text{
+        order:1;
+        text-align: center;
+        
+    }
+    .workshop_item .item_text a button{
+        margin: 20px auto;
+    }
+    .workshop_item .item_text .workshop_para{
+        width: 475px;
+        margin: 0 auto;
+    }
+    .workshop_container .line{
+        width: 900px;
+    }
+
+    /* ********原圖片在右邊******** */
+
+    .workshop_container .workshop_item2{
+        max-width: 900px;
+        flex-wrap: wrap;
+    }
+    .workshop_item2 .item_text{
+        order:1;
+        text-align: center;
+      }
+      .workshop_item2 .item_text a button{
+          margin: 20px auto;
+      }
+      .workshop_item2 .item_text .workshop_para{
+        width: 475px;
+        margin: 0 auto;
+      }
+      .workshop_container .workshop_item2 .item_img{
+          order: 2;
+      }
+      .workshop_item2 .item_img ul{
+          margin: 0 auto;
+      }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    main{
+        min-width: 700px;
+    }
+    .banner .banner_img{
+        height: 230px;
+
+    }
+    .banner .banner_text{
+        top: 30%;
+        left: calc((100% - 277px)/2);
+    }
+    .breadcrumb{
+        left: 16%;
+    }
+    .workshop_container{
+        width: 700px;
+        margin: 80px auto;
+    }
+    .workshop_h2 .line{
+        width: 700px;
+    }
+
+    /* ********原圖片在左邊******** */
+    .workshop_container .workshop_item{
+        max-width: 700px;
+        flex-wrap: wrap;
+    }
+    .workshop_item .item_img{
+        order:2;
+    }
+    .workshop_item .item_img ul{
+      margin: 0 auto;   
+    }
+    .workshop_item .item_img ul li{
+       
+    }
+    .workshop_item .item_text{
+        order:1;
+        text-align: center;
+        
+    }
+    .workshop_item .item_text a button{
+        margin: 20px auto;
+    }
+    .workshop_item .item_text .workshop_para{
+        width: 475px;
+        margin: 0 auto;
+    }
+    .workshop_container .line{
+        width: 700px;
+    }
+
+    /* ********原圖片在右邊******** */
+
+    .workshop_container .workshop_item2{
+        max-width: 700px;
+        flex-wrap: wrap;
+    }
+    .workshop_item2 .item_text{
+        order:1;
+        text-align: center;
+      }
+      .workshop_item2 .item_text a button{
+          margin: 20px auto;
+      }
+      .workshop_item2 .item_text .workshop_para{
+        width: 475px;
+        margin: 0 auto;
+      }
+      .workshop_container .workshop_item2 .item_img{
+          order: 2;
+      }
+      .workshop_item2 .item_img ul{
+          margin: 0 auto;
+      }
+}
+@media screen and (min-width: 576px)and (max-width: 767px){
+    main{
+        min-width: 540px;
+    }
+    .banner .banner_img{
+        height: 180px;
+
+    }
+    .banner .banner_text{
+        left: calc((100% - 277px)/2);
+    }
+    .breadcrumb{
+        left: 16%;
+    }
+    .workshop_container{
+        width: 540px;
+        margin: 80px auto;
+    }
+    .workshop_h2 h2{
+        font-size: 24px;
+        margin: 10px 0px;
+    }
+    .workshop_h2 .line{
+        width: 540px;
+    }
+
+    /* ********原圖片在左邊******** */
+    .workshop_container .workshop_item{
+        max-width: 540px;
+        flex-wrap: wrap;
+    }
+    .workshop_item .item_img{
+        order:2;
+        width: 540px;
+    }
+    .workshop_item .item_img ul{
+      margin: 0 auto;  
+      width: 540px; 
+    }
+    .workshop_item .item_img ul li{
+        width: 160px;
+        height: 160px;
+    }
+    .workshop_item .item_img ul li:nth-child(1){
+        width: 540px;
+        height: 415px;
+    }
+    .workshop_item .item_text{
+        order:1;
+        text-align: center;
+        
+    }
+    .workshop_item .item_text a button{
+        margin: 20px auto;
+    }
+    .workshop_item .item_text .workshop_para{
+        width: 450px;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+    .workshop_container .line{
+        width: 540px;
+    }
+
+    /* ********原圖片在右邊******** */
+
+    .workshop_container .workshop_item2{
+        max-width: 540px;
+        flex-wrap: wrap;
+    }
+    .workshop_item2 .item_text{
+        order:1;
+        text-align: center;
+      }
+      .workshop_item2 .item_text a button{
+          margin: 20px auto;
+      }
+      .workshop_item2 .item_text .workshop_para{
+        width: 450px;
+        margin: 0 auto;
+        padding: 20px 20px;
+      }
+      .workshop_container .workshop_item2 .item_img{
+          order: 2;
+          width: 540px;
+      }
+      .workshop_item2 .item_img ul{
+          margin: 0 auto;
+          width: 540px;
+      }
+      .workshop_item2 .item_img ul li{
+        width: 160px;
+        height: 160px;
+      }
+      .workshop_item2 .item_img ul li:nth-child(1){
+        width: 540px;
+        height: 415px;
+      }
+}
+@media screen and (min-width: 376px)and (max-width: 575px){
+    main{
+        width: 100%;
+    }
+    .banner .banner_img{
+        height: 150px;
+
+    }
+    
+    .banner .banner_text{
+        left: calc((100% - 208px)/2);
+    }
+    .banner .banner_text h2{
+        font-size: 24px;
+
+    }
+    .banner .banner_text p{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .breadcrumb{
+        left: 14%;
+    }
+    .workshop_container{
+        width: 100%;
+        margin: 80px auto;
+    }
+    .workshop_h2 h2{
+        word-wrap: break-word;
+        word-break: normal;
+        font-size: 24px;
+        margin: 10px 0px;
+    }
+    .workshop_h2 .line{
+        width: 80%;
+    }
+
+    /* ********原圖片在左邊******** */
+    .workshop_container .workshop_item{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .workshop_item .item_img{
+        order:2;
+        width: 100%;
+    }
+    .workshop_item .item_img ul{
+      margin: 0 auto;  
+      width: 100%; 
+    }
+    .workshop_item .item_img ul li{
+        width: 150px;
+        height: 150px;
+        margin: 10px 0px;
+    }
+    .workshop_item .item_img ul li:nth-child(1){
+        width: 150px;
+        height: 150px;
+        margin: 10px 0px;
+    }
+    .workshop_item .item_text{
+        order:1;
+        text-align: center;
+    }
+    .workshop_item .item_text h4{
+        font-size: 1em;
+    }
+    
+    .workshop_item .item_text a button{
+        margin: 20px auto;
+    }
+    .workshop_item .item_text .workshop_para{
+        width: 360px;
+        height: 460px;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+    .workshop_container .line{
+        width: 80%;
+    }
+
+    /* ********原圖片在右邊******** */
+
+    .workshop_container .workshop_item2{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .workshop_item2 .item_text{
+        order:1;
+        text-align: center;
+      }
+      .workshop_item2 .item_text h4{
+        font-size: 1em;
+    }
+      .workshop_item2 .item_text a button{
+          margin: 20px auto;
+      }
+      .workshop_item2 .item_text .workshop_para{
+        width: 360px;
+        height: 460px;
+        margin: 0 auto;
+        padding: 20px 20px;
+      }
+      .workshop_container .workshop_item2 .item_img{
+          order: 2;
+          width: 100%;
+      }
+      .workshop_item2 .item_img ul{
+          margin: 0 auto;
+          width: 100%;
+      }
+      .workshop_item2 .item_img ul li{
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin: 10px 0px;
+      }
+      .workshop_item2 .item_img ul li:nth-child(1){
+        width: 150px;
+        height: 150px;
+        margin: 10px 0px;
+      }
+}
+@media screen and (max-width: 375px){
+    main{
+        width: 100%;
+    }
+    .banner .banner_img{
+        height: 120px;
+
+    }
+    .banner .banner_text{
+        left: calc((100% - 208px)/2);
+    }
+    .banner .banner_text h2{
+        font-size: 24px;
+
+    }
+    .banner .banner_text p{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .breadcrumb{
+        left: 14%;
+    }
+    .workshop_container{
+        width: 100%;
+        margin: 80px auto;
+    }
+    .workshop_h2 h2{
+        font-size: 24px;
+        margin: 10px 0px;
+    }
+    .workshop_h2 .line{
+        width: 80%;
+    }
+
+    /* ********原圖片在左邊******** */
+    .workshop_container .workshop_item{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .workshop_item .item_img{
+        order:2;
+        width: 100%;
+    }
+    .workshop_item .item_img ul{
+      margin: 0 auto;  
+      width: 100%; 
+    }
+    .workshop_item .item_img ul li{
+        width: 150px;
+        height: 150px;
+        margin: 10px 0px;
+    }
+    .workshop_item .item_img ul li:nth-child(1){
+        width: 150px;
+        height: 150px;
+        margin: 10px 0px;
+    }
+    .workshop_item .item_text{
+        order:1;
+        text-align: center;
+        
+    }
+    .workshop_item .item_text h4{
+        font-size: 1em;
+    }
+    .workshop_item .item_text a button{
+        margin: 20px auto;
+    }
+    .workshop_item .item_text .workshop_para{
+        width: 300px;
+        height: 480px;
+        margin: 0 auto;
+        padding: 20px 20px;
+    }
+    .workshop_container .line{
+        width: 80%;
+    }
+
+    /* ********原圖片在右邊******** */
+
+    .workshop_container .workshop_item2{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    .workshop_item2 .item_text{
+        order:1;
+        text-align: center;
+      }
+    .workshop_item2 .item_text h4{
+        font-size: 1em;
+    }
+      .workshop_item2 .item_text a button{
+          margin: 20px auto;
+      }
+      .workshop_item2 .item_text .workshop_para{
+        width: 300px;
+        height: 480px;
+        margin: 0 auto;
+        padding: 20px 20px;
+      }
+      .workshop_container .workshop_item2 .item_img{
+          order: 2;
+          width: 100%;
+      }
+      .workshop_item2 .item_img ul{
+          margin: 0 auto;
+          width: 100%;
+      }
+      .workshop_item2 .item_img ul li{
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        margin: 10px 0px;
+      }
+      .workshop_item2 .item_img ul li:nth-child(1){
+        width: 150px;
+        height: 150px;
+        margin: 10px 0px;
+      }
+}
+

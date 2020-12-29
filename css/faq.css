@@ -1,0 +1,159 @@
+*{
+    /* outline: 1px solid gray; */
+    font-size: 0px;
+}
+nav a.local::before{
+  content: " ";
+  position: absolute;
+  border-bottom: 2px solid #8B5E3E;
+  bottom: -10px;
+  left: 0;
+  padding: 0px;
+  opacity: 1;
+  width: 65px;
+}
+
+
+/* 麵包屑 */
+.breadcrumb{
+    width: 200px;
+    height: 30px;
+    padding: 10px 0px;
+    font-size: 12px;
+    
+    position: relative;
+    left: 20%;
+  }
+.breadcrumb .breadcrumb_list{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #8B5E3E;
+   
+  }
+  .breadcrumb .breadcrumb_list a{
+    color: #8B5E3E;
+ 
+  }
+  
+  
+.breadcrumb .breadcrumb_list > li{
+    display: inline-block;
+    margin-right: 10px;
+ 
+}
+  
+  .breadcrumb .breadcrumb_list > li::before{
+    content: "/";
+    font-size: 12px;
+    color: #8B5E3E;
+    margin-right: 12px;
+  }
+  .breadcrumb .breadcrumb_list > li:first-child::before{
+    content: "";
+    margin-right: 0;
+  }
+  
+  .breadcrumb .breadcrumb_list > li > a{
+    text-decoration: none;
+    display: inline-block;
+  }
+  .breadcrumb .breadcrumb_list > li > a img{
+    width:16px;
+    vertical-align: bottom;
+
+  }
+  .breadcrumb .breadcrumb_list > li > a:hover{
+    color: darkgray;
+  }
+
+  /* 內容區域 */
+  main{
+    min-width: 1140px;
+    background-color: #FCF8EA;
+    
+  }
+  .qa_h2 h2{
+    color: #8B5E3E;
+    text-align: center;
+    padding: 10px;
+    font-size: 36px;
+    margin: 30px 0px;
+    letter-spacing: 5px;
+}
+  .qa_h2 .line{
+    border-top: 1px solid #8B5E3E;
+    width: 900px;
+    margin: auto;
+
+}
+article{
+  width: 900px;
+  display: flex;
+  margin: 30px auto;
+}
+
+.qa_select{
+  width: 550px;
+  margin: auto;
+  display: flex;
+}
+
+article .qa_select h4{
+  font-size:16px;
+  color: #8B5E3E;
+  letter-spacing: 3px;
+  width: 200px;
+  text-align: right;
+  padding: 8px 5px 0px 5px;
+  
+}
+
+.select{
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  color: rgba(61, 61, 61, 0.5);
+  background-color: rgba(255, 255,255, 0.5);
+}
+
+.content{
+  max-width: 900px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  
+  
+}
+.content .block .block1{
+  background-color: #8B5E3E;
+  width: 900px;
+  height: 30px;
+  margin-top: 20px;
+
+} 
+.content .block .block1 p{
+  font-size: 20px;
+  color: white;
+  padding:5px 0px 0px 20px;
+}
+.content .block .block2{
+  width: 900px;
+}
+.content .block .block2 p{
+  font-size: 14px;
+  color: rgba(61, 61, 61, 0.5);
+  padding:20px 30px;
+  line-height: 2;
+  background-color: white;
+}
+.content .bottom{
+  margin-bottom:100px ;
+}
+
+
+
+
+
+
